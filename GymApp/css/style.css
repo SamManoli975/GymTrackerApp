@@ -1,0 +1,266 @@
+/*body{
+    color: white;
+    background-color: black;
+}
+.main{
+    text-align: center;
+    font-size: 14px;
+}
+
+.userButton{
+    background-color: gray;
+    display: table;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    padding-top: 5px;
+    margin: auto;
+    font-size: 2em;
+    color: black;
+    border-radius: 2em;
+    overflow: hidden;
+}
+.createUser{
+    display: inline-block;
+    background-color: gray;
+    padding: 5px;
+    margin: 5px;
+    padding-top: px;
+    font-size: 1em;
+    color: black;
+    border-radius: 2em;
+}
+.userButton:hover{
+    background-color: goldenrod;
+    transition: 1s;
+  }
+.createUser:hover{
+    background-color: goldenrod;
+    transition: 1s ;
+}*/
+h1{
+    color: white;
+}
+body{
+    background-color: black;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    overflow: auto;
+    padding-bottom: 75px;
+}
+footer{
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    overflow: hidden;
+    height: em;
+    background-color:black;
+    padding: 10px;
+    margin-bottom: 0;
+    border: 0;
+    width: 100vw;
+    left: 0;
+    
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-between;
+}
+footer a{
+    color: gray;
+    font-size: 3em;
+
+    text-align: center;
+    width: 25%;
+    /*padding: 18px 7vw;*/
+}
+.input{
+    height: 8rem;
+    width: 20rem;
+    text-align: center;
+    border-radius: 3rem;
+    font-size: 3rem;
+}
+label{
+    color: white;
+}
+form{
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submit-button{
+    border-radius: 2rem;
+    height: 5rem;
+    width: 8rem;
+    font-size: 1.5rem;
+}
+.submit-reset-button{ 
+    display: flex;
+}
+h3{
+    font-size: 20px;
+}
+
+
+#addWorkout-button:hover{
+    box-shadow: white;
+}
+#addWorkout-button i{
+    font-size: 7rem;
+    color: gray;
+}
+.NewWorkout-button{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.muscleGroup{
+    list-style: none;
+    padding: 0;
+}
+.muscleGroup li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    background-color: white;
+    color: black;
+    margin: 5px 0;    
+}
+.exerciseLink{
+    text-decoration: none;
+}
+.exerciseList {
+    position: relative;
+    list-style-type: none; /* Remove default list styling */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.exerciseList li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+    margin: 5px 0;    
+}
+.exerciseList a{
+    list-style-type: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+    margin: 5px 0;  
+    text-decoration: none; 
+}
+#endWorkoutButton {
+    display: none;
+    margin-right: 5px;
+    
+    right: 20px;
+    
+}
+
+#addWorkout-button {
+    /* font-size: 14px; */
+    background-color: black;
+
+    /*adding these to move the button to the top right corner to give the workout space to be displayed*/
+    position: absolute;
+    right: 20px;
+    top: 50px;
+
+
+    border: 10px;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+    margin-right: 5px;
+
+
+    
+}
+
+#form-container {
+    /* position: absolute; */
+    /* top: 50%; /* Center the container vertically initially */
+    /* right: 0; */
+    /* padding: 10px; */
+    /* display: flex;
+    align-items: center; */
+
+    /* align-items: center; */
+    margin-right: 5px;
+    /* display: grid; */
+}
+#displayWorkoutList{
+    display: flex;
+    /* top:40vh; */
+}
+/* #displayWorkoutListContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+} */
+.exerciseSetContainer{
+    
+    box-sizing: border-box;
+    width: 60%;
+    margin: 0 auto;
+    border: 2px solid white;
+    
+    overflow: hidden;
+    background-color: gray;
+    
+}
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar-day {
+    border: 1px solid #ccc;
+    margin: 5px;
+    padding: 10px;
+    width: 150px;
+}
+
+.day-label {
+    font-weight: bold;
+}
+
+.workouts-list {
+    list-style: none;
+    padding: 0;
+}
+.deleteExerciseBtn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+.exerciseListItem{
+    position: relative;
+}
+.linkExerciseList{
+    position: relative;
+}
+#DisplayWorkout{
+    border: 1px solid white;
+}
+#displayWorkoutList2{
+    border:1px solid grey;
+    padding: 5px;
+    background-color: grey;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 5px;
+    width: 60vw;
+
+}
+#displayWorkoutList2 li{
+    list-style-type: none;
+}
